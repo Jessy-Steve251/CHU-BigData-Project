@@ -1,0 +1,35 @@
+# Data files (patient data - even anonymized, do not upload)
+*.csv
+!data/department_region_mapping.csv
+
+# Talend workspace
+.metadata/
+.settings/
+TalendJobs/
+
+# Power BI
+*.pbix
+*.pbit
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Java/Talend build
+*.class
+*.jar
+target/
+
+# Logs
+*.log
+
+# Large files
+*.zip
+*.tar.gz
